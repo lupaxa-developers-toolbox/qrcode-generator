@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 
 ## Requirements
 
@@ -17,7 +17,7 @@ The PyPI name is `lupaxa-qrcode-generator`. The import path is
 and `qrcodes`. `lupaxa` is a namespace package — there is no
 `lupaxa/__init__.py`.
 
-### From source (development)
+### From Source (Development)
 
 ```bash
 make init
@@ -31,7 +31,7 @@ After makefile-skills are installed:
 make mkdocs-serve
 ```
 
-## First code
+## First Code
 
 ```python
 from lupaxa.qrcode_generator import make_text, save_qr
@@ -57,7 +57,7 @@ WPA and WEP networks require `--password`. Open networks use `--auth nopass`.
 qrcode-generator wifi --ssid "MyWifi" --password "Secret!" --auth WPA -o wifi.png
 ```
 
-## Makefile helpers
+## Makefile Helpers
 
 ```bash
 make init                 # clone makefile-skills into .makefiles/

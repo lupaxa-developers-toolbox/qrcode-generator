@@ -37,7 +37,7 @@ qrcode-generator vcard \
     -o simon_vcard.png
 ```
 
-## Email, SMS, location
+## Email, SMS, Location
 
 ```bash
 qrcode-generator email \
@@ -51,7 +51,7 @@ qrcode-generator sms --number "+4412345" --message "Meet at 7?" --ios -o sms-ios
 qrcode-generator geo --lat 51.5014 --lng -0.1419 -o buckingham.png
 ```
 
-## Calendar event
+## Calendar Event
 
 ```bash
 qrcode-generator event \
@@ -66,7 +66,7 @@ qrcode-generator event \
 Commas, semicolons, and newlines in the summary, location, or
 description are escaped so calendar apps can parse the payload.
 
-## Colours, SVG, and data URIs
+## Colours, SVG, and Data URIs
 
 ```bash
 qrcode-generator --error H --dark "#6D95D3" --light none --kind svg \
@@ -76,7 +76,7 @@ qrcode-generator --terminal text "Hello Simon"
 qrcode-generator -o - --kind svg text "Hello Simon"
 ```
 
-## Centre logo
+## Centre Logo
 
 PNG only. The CLI sets error correction to H. Install the `logo` extra
 for Pillow.

@@ -1,4 +1,4 @@
-# qrcode-generator
+# QRCode Generator
 
 CLI and library to generate QR codes for text, Wi-Fi, contacts, email,
 SMS, locations, and calendar events.
@@ -22,17 +22,10 @@ qrcode-generator text "Hello Simon" -o hello.png
 qrcode-generator --version
 ```
 
-## What you get
+## What You Get
 
 - A library that returns `segno.QRCode` objects plus `save_qr`
 - Subcommands for the common payload types phones actually open
 - Error correction, Micro QR, colours, data URIs, terminal preview, stdout
 - Validation for Wi-Fi passwords, http(s) URLs, geo ranges, and event dates
 - Python 3.10+, one runtime dependency (`segno`)
-
-## Next steps
-
-- [Getting started](getting-started.md) — install and first codes
-- [Usage](usage.md) — library options and CLI flags
-- [Reference](reference.md) — public API and exit codes
-- [Examples](examples.md) — copy-paste recipes

@@ -1,6 +1,6 @@
 # Reference
 
-## Package identity
+## Package Identity
 
 | Item            | Value                               |
 | --------------- | ----------------------------------- |
@@ -38,7 +38,7 @@ Imported from `lupaxa.qrcode_generator`:
 Payload string builders live in `lupaxa.qrcode_generator.payloads` for
 tests and callers that want the encoded text without a QR object.
 
-## CLI exit codes
+## CLI Exit Codes
 
 | Code | Meaning                                      |
 | ---- | -------------------------------------------- |

@@ -80,7 +80,7 @@ qrcode-generator text "Hello Simon" -o hello.png --scale 8 --border 4
 | `--logo-size`       | `0.2`        | Logo width as a fraction (max `0.25`)        |
 | `--version`         |              | Print package version and exit `0`           |
 
-## Payload rules
+## Payload Rules
 
 **URL.** `url` is not a free-text alias. The value must be an absolute
 `http` or `https` URL.
@@ -107,7 +107,7 @@ structured-append sequences, and non-PNG output. Needs
 `pip install lupaxa-qrcode-generator[logo]` (Pillow). Keep the logo
 at or under `--logo-size 0.25` and scan the result before you print it.
 
-## Passwords on the command line
+## Passwords on the Command Line
 
 `--password` is visible in the process list and shell history. That is
 normal for a local tool. Prefer a throwaway guest network when you can.

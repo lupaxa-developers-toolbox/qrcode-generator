@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">qrcode-generator</h1>
+<h1 align="center">QRCode Generator</h1>
 
 CLI and library to generate QR codes for text, Wi-Fi, contacts, email,
 SMS, locations, and calendar events.

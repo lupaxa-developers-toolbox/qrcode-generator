@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "lupaxa-qrcode-generator"
 dynamic = ["version"]
 description = "CLI and library to generate QR codes for text, Wi-Fi, contacts, email, SMS, locations, and calendar events."
-readme = "README-PYPI.md"
+readme = "README.md"
 license = { file = "LICENCE" }
 requires-python = ">=3.10"
 
@@ -75,7 +75,6 @@ path = "src/lupaxa/qrcode_generator/version.py"
 include = [
   "src/**",
   "README.md",
-  "README-PYPI.md",
   "LICENCE",
 ]
 
